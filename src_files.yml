@@ -1,0 +1,14 @@
+dummy_vip: 
+vlog_opts: [
+  -L common_cells_lib,
+]
+incdirs: [
+  ./include/dummy_module,
+]
+files: [
+  ./rtl/dummy_submodule.sv,
+  ./rtl/dummy_top.sv,
+]
+flags: [
+  skip_synthesis,
+]
