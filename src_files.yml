@@ -1,7 +1,9 @@
 dummy_vip: 
   vlog_opts: [
     -L common_cells_lib,
-    +define+ENABLE_DUMMY_VIP,
+  ]
+  defines: [
+    ENABLE_DUMMY_VIP,
   ]
   incdirs: [
     ./include,
